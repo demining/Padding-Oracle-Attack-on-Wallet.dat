@@ -4,7 +4,14 @@
 
 <p></p>
 
+---
 
+
+* Tutorial: https://youtu.be/0aCfT-kCRlw
+* Tutorial: https://cryptodeeptech.ru/padding-oracle-attack-on-wallet-dat
+
+
+---
 
 <p>In this article, we will use the classification of common attack patterns from the cybersecurity resource&nbsp;<a href="https://capec.mitre.org/data/definitions/463.html" target="_blank" rel="noreferrer noopener">[CAPEC™]</a>&nbsp;.&nbsp;<a href="https://en.wikipedia.org/wiki/Padding_oracle_attack">The “Padding Oracle Attack”</a>&nbsp;was first discussed&nbsp;on&nbsp;<a href="https://en.bitcoin.it/wiki/Wallet" target="_blank" rel="noreferrer noopener">Wallet.dat</a>&nbsp;back in 2012&nbsp;<em>(on the vulnerability management and threat analysis platform&nbsp;<a href="https://github.com/vuldb" target="_blank" rel="noreferrer noopener"><strong>“VulDB”</strong></a>&nbsp;)</em>&nbsp;.&nbsp;The problem of the most popular&nbsp;<strong><a href="https://github.com/bitcoin/bitcoin" target="_blank" rel="noreferrer noopener">Bitcoin Core</a></strong>&nbsp;wallet affects the work&nbsp;&nbsp;<strong><code>AES Encryption Padding</code></strong>in the file&nbsp;<strong><code>Wallet.dat</code></strong></p>
 
